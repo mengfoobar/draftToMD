@@ -22,5 +22,8 @@
   "homepage": "https://github.com/LinesApp/draftToMD#readme",
   "dependencies": {
     "draft-js": "~0.1.0"
+  },
+  "browserify": {
+    "transform": [["babelify", { "presets": ["es2015"] }]]
   }
 }

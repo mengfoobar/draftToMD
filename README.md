@@ -5,7 +5,7 @@
 # Usage
 
 ```
-import Convert from './draftToMD';
+import Convert from 'draft-to-md';
 
 [...]
 
