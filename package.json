@@ -1,6 +1,6 @@
 {
   "name": "draft-to-md",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert draft-js input to Markdown",
   "main": "index.js",
   "scripts": {
