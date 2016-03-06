@@ -4,7 +4,9 @@
 
 # Usage
 
-```
+`npm install draft-to-md --save-dev`
+
+```javascript
 import Convert from 'draft-to-md';
 
 class MarkdownExample extends React.Component {
