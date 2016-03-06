@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/draft-to-md.svg?style=flat)](https://www.npmjs.com/package/draft-to-md)
+
 # draftToMD
 
 > Convert draft-js input to Markdown
@@ -13,12 +15,6 @@ class MarkdownExample extends React.Component {
     constructor(props) {
         super(props);
 
-        const compositeDecorator = new CompositeDecorator([
-            {
-                strategy: hashtagStrategy,
-                component: HashtagSpan,
-            }
-        ]);
         let text = "# Markdown\n1. convert **markdown** to `draft-js`\n2. convert `draft-js` to **markdown**"
         this.state = {
             editorState: EditorState.createWithContent(ContentState.createFromText(text))
