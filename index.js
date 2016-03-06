@@ -1,5 +1,3 @@
-'use strict';
-
-var DraftToMD = require('./lib/draftToMD');
+import DraftToMD from './lib/draftToMD';
 
 module.exports = DraftToMD;
