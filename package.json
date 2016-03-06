@@ -1,0 +1,26 @@
+{
+  "name": "draft-to-md",
+  "version": "0.1.0",
+  "description": "Convert draft-js input to Markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinesApp/draftToMD.git"
+  },
+  "keywords": [
+    "draft-js",
+    "markdown"
+  ],
+  "author": "Alexander Scholz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LinesApp/draftToMD/issues"
+  },
+  "homepage": "https://github.com/LinesApp/draftToMD#readme",
+  "dependencies": {
+    "draft-js": "~0.1.0"
+  }
+}
