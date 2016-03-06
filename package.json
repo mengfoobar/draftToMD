@@ -1,6 +1,6 @@
 {
   "name": "draft-to-md",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert draft-js input to Markdown",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,15 @@
     "draft-js": "~0.1.0"
   },
   "browserify": {
-    "transform": [["babelify", { "presets": ["es2015"] }]]
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   }
 }
