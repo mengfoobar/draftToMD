@@ -1,3 +1,3 @@
-import DraftToMD from './lib/draftToMD';
+const DraftToMD = require('./lib/DraftToMD.js')
 
 module.exports = DraftToMD;
