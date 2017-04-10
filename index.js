@@ -1,3 +1,3 @@
-const DraftToMD = require('./lib/DraftToMD.js')
+const DraftToMD = require('./lib/draftToMD.js')
 
 module.exports = DraftToMD;
